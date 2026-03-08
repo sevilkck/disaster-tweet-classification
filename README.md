@@ -40,30 +40,6 @@ This project builds a binary classifier to distinguish between tweets about actu
 - **Main challenge:** Figurative language — tweets like "this sale is fire" can fool the classifier
 - **Logistic Regression outperforms Naive Bayes** because it doesn't assume feature independence
 
-## Project Structure
-
-```
-disaster_tweets_project/
-├── disaster_tweets.ipynb     # Main notebook with full pipeline
-├── train.csv                 # Training dataset
-├── WALKTHROUGH.md            # Detailed cell-by-cell explanation
-├── plots/                    # Generated visualizations
-│   ├── plot_class_distribution.png
-│   ├── plot_tweet_length.png
-│   ├── plot_top_words_raw.png
-│   ├── plot_top_words_clean.png
-│   ├── plot_hashtags.png
-│   ├── plot_cm_lr.png
-│   ├── plot_cm_nb.png
-│   ├── plot_cm_tuned.png
-│   └── plot_model_comparison.png
-├── generate_plots.py         # Script to regenerate plots
-├── build_html.py             # Generate HTML presentation
-├── build_pptx.py             # Generate PowerPoint presentation
-├── presentation.html         # HTML presentation output
-└── disaster_tweets_presentation.pptx  # PowerPoint output
-```
-
 ## Technologies
 
 - **Python 3**
